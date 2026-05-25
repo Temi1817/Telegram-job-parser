@@ -1,0 +1,10 @@
+name: telegabot
+
+services:
+  bot:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./jobs.db:/app/jobs.db
+    restart: unless-stopped

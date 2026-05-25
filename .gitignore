@@ -1,0 +1,36 @@
+# Secrets — никогда не заливай в git
+.env
+
+# База данных
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Тестовые артефакты
+*.txt
+hh_chunk*.txt
+
+# Скриншоты и временные файлы
+*.png
+*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+.dockerignore
